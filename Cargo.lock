@@ -1,0 +1,30 @@
+[[package]]
+name = "lazy_static"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "libc"
+version = "0.2.46"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "raylib-rs"
+version = "0.1.0"
+source = "git+https://github.com/buckle2000/raylib-rs.git#10e732f11a9d9f564e756b957f175939cac563dd"
+dependencies = [
+ "lazy_static 1.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "libc 0.2.46 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "turtle-simulator"
+version = "0.1.0"
+dependencies = [
+ "raylib-rs 0.1.0 (git+https://github.com/buckle2000/raylib-rs.git)",
+]
+
+[metadata]
+"checksum lazy_static 1.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "a374c89b9db55895453a74c1e38861d9deec0b01b405a82516e9d5de4820dea1"
+"checksum libc 0.2.46 (registry+https://github.com/rust-lang/crates.io-index)" = "023a4cd09b2ff695f9734c1934145a315594b7986398496841c7031a5a1bbdbd"
+"checksum raylib-rs 0.1.0 (git+https://github.com/buckle2000/raylib-rs.git)" = "<none>"

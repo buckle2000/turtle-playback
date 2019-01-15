@@ -1,0 +1,8 @@
+[package]
+name = "turtle-simulator"
+version = "0.1.0"
+authors = ["buckle2000 <buckle2000@zoho.com>"]
+edition = "2018"
+
+[dependencies]
+raylib-rs = { git = "https://github.com/buckle2000/raylib-rs.git" }
